@@ -18,3 +18,18 @@ available in the form of .jar files
 
 Install testNG in eclipse
 https://testng.org/testng-eclipse-update-site
+
+
+Parameterized tests:
+
+in testng.xml file where we can run the tests we want to run, we can also pass parameters. Parameters are more like env variables which allow
+us to work with multiple test cases with same env variables.
+
+Data driven: from diff resources
+-- excel file - test data
+-- properties file - Env variables, Object repos, test data
+-- testng.xml - Env variables, do not store test data (not good practice)
+-- Other xml files // remaining 3 can also be used to store test data
+-- JSON files
+-- DB
+
