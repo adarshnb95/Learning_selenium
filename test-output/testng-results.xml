@@ -1,29 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG parameter testing" duration-ms="6285" started-at="2022-11-01T19:34:36 CDT" finished-at="2022-11-01T19:34:42 CDT">
+  <suite name="Default suite" duration-ms="25679" started-at="2022-11-01T22:09:09 CDT" finished-at="2022-11-01T22:09:34 CDT">
     <groups>
+      <group name="Link Test">
+        <method signature="GoogleTest.gmailLinkTest()[pri:3, instance:com.test.GoogleTest@22d9d]" name="gmailLinkTest" class="com.test.GoogleTest"/>
+      </group> <!-- Link Test -->
+      <group name="Test">
+        <method signature="GoogleTest.test1()[pri:4, instance:com.test.GoogleTest@22d9d]" name="test1" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.test2()[pri:5, instance:com.test.GoogleTest@22d9d]" name="test2" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.test3()[pri:6, instance:com.test.GoogleTest@22d9d]" name="test3" class="com.test.GoogleTest"/>
+      </group> <!-- Test -->
+      <group name="Title">
+        <method signature="GoogleTest.googleTitleTest()[pri:1, instance:com.test.GoogleTest@22d9d]" name="googleTitleTest" class="com.test.GoogleTest"/>
+      </group> <!-- Title -->
+      <group name="Logo">
+        <method signature="GoogleTest.googleLogoTest()[pri:2, instance:com.test.GoogleTest@22d9d]" name="googleLogoTest" class="com.test.GoogleTest"/>
+      </group> <!-- Logo -->
     </groups>
-    <test name="Parameterized test" duration-ms="6285" started-at="2022-11-01T19:34:36 CDT" finished-at="2022-11-01T19:34:42 CDT">
-      <class name="com.parameters.ParameterTest">
-        <test-method status="PASS" signature="yahooLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.parameters.ParameterTest@1a51a35]" name="yahooLoginTest" duration-ms="6254" started-at="2022-11-01T19:34:36 CDT" finished-at="2022-11-01T19:34:42 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://login.yahoo.com/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@yahoo.com]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="25679" started-at="2022-11-01T22:09:09 CDT" finished-at="2022-11-01T22:09:34 CDT">
+      <class name="com.test.GoogleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@22d9d]" name="setUp" is-config="true" duration-ms="4761" started-at="2022-11-01T22:09:09 CDT" finished-at="2022-11-01T22:09:13 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- yahooLoginTest -->
-      </class> <!-- com.parameters.ParameterTest -->
-    </test> <!-- Parameterized test -->
-  </suite> <!-- TestNG parameter testing -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:1, instance:com.test.GoogleTest@22d9d]" name="googleTitleTest" duration-ms="24" started-at="2022-11-01T22:09:13 CDT" finished-at="2022-11-01T22:09:13 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.GoogleTest@22d9d]" name="TearDown" is-config="true" duration-ms="692" started-at="2022-11-01T22:09:13 CDT" finished-at="2022-11-01T22:09:14 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@22d9d]" name="setUp" is-config="true" duration-ms="3346" started-at="2022-11-01T22:09:14 CDT" finished-at="2022-11-01T22:09:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:2, instance:com.test.GoogleTest@22d9d]" name="googleLogoTest" duration-ms="58" started-at="2022-11-01T22:09:17 CDT" finished-at="2022-11-01T22:09:18 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.GoogleTest@22d9d]" name="TearDown" is-config="true" duration-ms="667" started-at="2022-11-01T22:09:18 CDT" finished-at="2022-11-01T22:09:18 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@22d9d]" name="setUp" is-config="true" duration-ms="3472" started-at="2022-11-01T22:09:18 CDT" finished-at="2022-11-01T22:09:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmailLinkTest()[pri:3, instance:com.test.GoogleTest@22d9d]" name="gmailLinkTest" duration-ms="39" started-at="2022-11-01T22:09:22 CDT" finished-at="2022-11-01T22:09:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailLinkTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.GoogleTest@22d9d]" name="TearDown" is-config="true" duration-ms="676" started-at="2022-11-01T22:09:22 CDT" finished-at="2022-11-01T22:09:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@22d9d]" name="setUp" is-config="true" duration-ms="3253" started-at="2022-11-01T22:09:22 CDT" finished-at="2022-11-01T22:09:26 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:4, instance:com.test.GoogleTest@22d9d]" name="test1" duration-ms="2" started-at="2022-11-01T22:09:26 CDT" finished-at="2022-11-01T22:09:26 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.GoogleTest@22d9d]" name="TearDown" is-config="true" duration-ms="655" started-at="2022-11-01T22:09:26 CDT" finished-at="2022-11-01T22:09:26 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@22d9d]" name="setUp" is-config="true" duration-ms="3275" started-at="2022-11-01T22:09:26 CDT" finished-at="2022-11-01T22:09:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2()[pri:5, instance:com.test.GoogleTest@22d9d]" name="test2" duration-ms="1" started-at="2022-11-01T22:09:30 CDT" finished-at="2022-11-01T22:09:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.GoogleTest@22d9d]" name="TearDown" is-config="true" duration-ms="678" started-at="2022-11-01T22:09:30 CDT" finished-at="2022-11-01T22:09:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@22d9d]" name="setUp" is-config="true" duration-ms="3360" started-at="2022-11-01T22:09:30 CDT" finished-at="2022-11-01T22:09:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test3()[pri:6, instance:com.test.GoogleTest@22d9d]" name="test3" duration-ms="0" started-at="2022-11-01T22:09:34 CDT" finished-at="2022-11-01T22:09:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.GoogleTest@22d9d]" name="TearDown" is-config="true" duration-ms="691" started-at="2022-11-01T22:09:34 CDT" finished-at="2022-11-01T22:09:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.test.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

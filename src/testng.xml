@@ -12,6 +12,7 @@
 		<classes>
 			<class name="com.parameters.ParameterTest"/>
 			
+			
 		</classes>
 	</test>
 

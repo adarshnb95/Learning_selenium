@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.ExceptionTimeOutTest">
+      <class name="com.test.TestNgFeatures">
         <methods>
-          <include name="infiniteLoopTest"/>
+          <include name="LoginTest"/>
+          <include name="HomePageTest"/>
+          <include name="SearchPageTest"/>
+          <include name="RegistrationPage"/>
         </methods>
-      </class> <!-- com.test.ExceptionTimeOutTest -->
+      </class> <!-- com.test.TestNgFeatures -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

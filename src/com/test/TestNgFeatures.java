@@ -7,7 +7,7 @@ public class TestNgFeatures {
 	@Test
 	public void LoginTest() {
 		System.out.println("Login");
-//		int i = 9/0;
+		int i = 9/0;
 	}
 	
 	@Test(dependsOnMethods= "LoginTest")
